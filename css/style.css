@@ -1,0 +1,31 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/Stars-galaxy-purple-light-space_1920x1080.jpg");
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 35%;
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
